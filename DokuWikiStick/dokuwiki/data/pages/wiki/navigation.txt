@@ -1,0 +1,2 @@
+[[:start|首页]]\\ [[wiki:dokuwiki|Wiki说明]]\\ [[wiki:welcome|欢迎页]]\\ 
+{{indexmenu>..#1|js navbar nocookie}}

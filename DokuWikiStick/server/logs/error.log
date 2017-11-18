@@ -1,0 +1,62 @@
+[Tue Aug 29 16:33:07.034501 2017] [mpm_winnt:notice] [pid 5600:tid 716] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Tue Aug 29 16:33:07.034501 2017] [mpm_winnt:notice] [pid 5600:tid 716] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Tue Aug 29 16:33:07.034501 2017] [core:notice] [pid 5600:tid 716] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Tue Aug 29 16:33:07.038004 2017] [mpm_winnt:notice] [pid 5600:tid 716] AH00418: Parent: Created child process 9916
+[Tue Aug 29 16:33:08.094990 2017] [mpm_winnt:notice] [pid 9916:tid 600] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 16:33:10.144823 2017] [access_compat:error] [pid 9916:tid 1128] [client ::1:64082] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/install.php
+[Tue Aug 29 16:33:21.130543 2017] [access_compat:error] [pid 9916:tid 1128] [client ::1:64082] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/install.php?l=zh
+[Tue Aug 29 16:33:23.238956 2017] [access_compat:error] [pid 9916:tid 1136] [client 127.0.0.1:64077] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/install.php?l=zh
+[Tue Aug 29 16:34:13.409044 2017] [access_compat:error] [pid 9916:tid 1144] [client ::1:64108] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/install.php?l=zh
+[Tue Aug 29 16:36:00.222938 2017] [access_compat:error] [pid 9916:tid 1144] [client ::1:64158] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=wiki:welcome&do=admin
+[Tue Aug 29 16:39:41.973794 2017] [access_compat:error] [pid 9916:tid 1116] [client ::1:64306] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=start&do=admin
+[Tue Aug 29 16:41:28.520093 2017] [access_compat:error] [pid 9916:tid 1136] [client ::1:56822] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=talk:wiki:user:admin&do=admin
+[Tue Aug 29 16:43:07.680516 2017] [access_compat:error] [pid 9916:tid 1144] [client ::1:56893] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=wiki:site_notice&do=admin
+[Tue Aug 29 16:47:23.675677 2017] [core:warn] [pid 9352:tid 624] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Aug 29 16:47:23.721218 2017] [mpm_winnt:notice] [pid 9352:tid 624] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Tue Aug 29 16:47:23.721720 2017] [mpm_winnt:notice] [pid 9352:tid 624] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Tue Aug 29 16:47:23.721720 2017] [core:notice] [pid 9352:tid 624] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Tue Aug 29 16:47:23.725221 2017] [mpm_winnt:notice] [pid 9352:tid 624] AH00418: Parent: Created child process 8544
+[Tue Aug 29 16:47:24.958839 2017] [mpm_winnt:notice] [pid 8544:tid 752] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 16:47:49.286658 2017] [access_compat:error] [pid 8544:tid 1144] [client ::1:51140] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=start&do=admin
+[Mon Sep 04 09:36:24.426441 2017] [core:warn] [pid 5192:tid 612] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 04 09:36:26.571364 2017] [mpm_winnt:notice] [pid 5192:tid 612] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Mon Sep 04 09:36:26.571364 2017] [mpm_winnt:notice] [pid 5192:tid 612] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Mon Sep 04 09:36:26.571364 2017] [core:notice] [pid 5192:tid 612] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Mon Sep 04 09:36:26.586950 2017] [mpm_winnt:notice] [pid 5192:tid 612] AH00418: Parent: Created child process 1172
+[Mon Sep 04 09:36:27.580505 2017] [mpm_winnt:notice] [pid 1172:tid 636] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 09:41:06.246633 2017] [access_compat:error] [pid 1172:tid 1120] [client ::1:65516] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=wiki:dokuwiki&do=admin
+[Mon Sep 04 10:27:59.045058 2017] [access_compat:error] [pid 1172:tid 1152] [client ::1:53700] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=wiki:dokuwiki&do=admin
+[Mon Sep 04 18:36:22.247314 2017] [core:warn] [pid 12476:tid 604] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 04 18:36:24.001935 2017] [mpm_winnt:notice] [pid 12476:tid 604] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Mon Sep 04 18:36:24.002438 2017] [mpm_winnt:notice] [pid 12476:tid 604] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Mon Sep 04 18:36:24.002438 2017] [core:notice] [pid 12476:tid 604] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Mon Sep 04 18:36:24.005439 2017] [mpm_winnt:notice] [pid 12476:tid 604] AH00418: Parent: Created child process 13724
+[Mon Sep 04 18:36:25.138457 2017] [mpm_winnt:notice] [pid 13724:tid 640] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 31 09:44:05.416175 2017] [core:warn] [pid 6636:tid 648] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 31 09:44:06.954352 2017] [mpm_winnt:notice] [pid 6636:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Tue Oct 31 09:44:06.954352 2017] [mpm_winnt:notice] [pid 6636:tid 648] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Tue Oct 31 09:44:06.954352 2017] [core:notice] [pid 6636:tid 648] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Tue Oct 31 09:44:06.954352 2017] [mpm_winnt:notice] [pid 6636:tid 648] AH00418: Parent: Created child process 10416
+[Tue Oct 31 09:44:08.514600 2017] [mpm_winnt:notice] [pid 10416:tid 744] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 02 09:25:55.194509 2017] [core:warn] [pid 9948:tid 628] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 02 09:25:56.674409 2017] [mpm_winnt:notice] [pid 9948:tid 628] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Thu Nov 02 09:25:56.674409 2017] [mpm_winnt:notice] [pid 9948:tid 628] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Thu Nov 02 09:25:56.674409 2017] [core:notice] [pid 9948:tid 628] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Thu Nov 02 09:25:56.691042 2017] [mpm_winnt:notice] [pid 9948:tid 628] AH00418: Parent: Created child process 7608
+[Thu Nov 02 09:25:57.825751 2017] [mpm_winnt:notice] [pid 7608:tid 652] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 02 09:28:01.720534 2017] [access_compat:error] [pid 7608:tid 1152] [client ::1:53854] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=start&do=admin
+[Thu Nov 09 15:38:48.144908 2017] [core:warn] [pid 9120:tid 524] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 09 15:38:49.778571 2017] [mpm_winnt:notice] [pid 9120:tid 524] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Thu Nov 09 15:38:49.779572 2017] [mpm_winnt:notice] [pid 9120:tid 524] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Thu Nov 09 15:38:49.798592 2017] [core:notice] [pid 9120:tid 524] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Thu Nov 09 15:38:49.804599 2017] [mpm_winnt:notice] [pid 9120:tid 524] AH00418: Parent: Created child process 5784
+[Thu Nov 09 15:38:51.066392 2017] [mpm_winnt:notice] [pid 5784:tid 676] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 09 15:39:27.074419 2017] [core:warn] [pid 15660:tid 500] AH00098: pid file F:/DokuWikiStick/server/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 09 15:39:27.119045 2017] [mpm_winnt:notice] [pid 15660:tid 500] AH00455: Apache/2.4.25 (Win32) PHP/5.6.30 configured -- resuming normal operations
+[Thu Nov 09 15:39:27.119045 2017] [mpm_winnt:notice] [pid 15660:tid 500] AH00456: Apache Lounge VC11 Server built: Dec 20 2016 13:02:04
+[Thu Nov 09 15:39:27.119045 2017] [core:notice] [pid 15660:tid 500] AH00094: Command line: 'mapache.exe -d F:/DokuWikiStick/server'
+[Thu Nov 09 15:39:27.122016 2017] [mpm_winnt:notice] [pid 15660:tid 500] AH00418: Parent: Created child process 15820
+[Thu Nov 09 15:39:28.187134 2017] [mpm_winnt:notice] [pid 15820:tid 744] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 09 16:15:12.727600 2017] [access_compat:error] [pid 15820:tid 1100] [client ::1:50691] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=start&do=admin
+[Thu Nov 09 16:16:22.552606 2017] [access_compat:error] [pid 15820:tid 1148] [client ::1:50761] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=start&do=admin
+[Thu Nov 09 16:17:32.535695 2017] [access_compat:error] [pid 15820:tid 1108] [client ::1:50791] AH01797: client denied by server configuration: F:/DokuWikiStick/dokuwiki/data/security.png, referer: http://localhost:8800/doku.php?id=talk:wiki:user:admin&do=admin

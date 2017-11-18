@@ -1,0 +1,13 @@
+====== 显像一号 正在学习中...======
+
+**人有界,思无涯,学有度,行有疆**
+
+===== 添加新知识 ===== 
+{{NEWPAGE}}
+
+===== 知识地图 =====
+{{indexmenu>:}}
+
+===== 知识导航 =====
+{{pagequery> ;sort=cyear,cdate;group;proper;display={title};cols=4}}
+
