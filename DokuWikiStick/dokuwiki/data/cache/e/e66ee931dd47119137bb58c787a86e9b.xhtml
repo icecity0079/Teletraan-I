@@ -1,0 +1,145 @@
+
+<h1 class="sectionedit1" id="sublime_text_全程指南">Sublime Text 全程指南</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Sublime Text 全程指南" [1-41] -->
+<h2 class="sectionedit2" id="前言_prologue">前言（Prologue）</h2>
+<div class="level2">
+
+<p>
+Sublime Text是一款跨平台代码编辑器（Code Editor），几乎可以作为各平台首选的GUI编辑器。 安装（Installation）
+</p>
+
+</div>
+<!-- EDIT2 SECTION "前言（Prologue）" [42-218] -->
+<h2 class="sectionedit3" id="安装_installation">安装（Installation）</h2>
+<div class="level2">
+
+<p>
+Sublime Text <a href="http://www.sublimetext.com/" class="urlextern" title="http://www.sublimetext.com/" rel="nofollow">官方网站</a> 提供了 Sublime Text 各系统各版本的下载，目前Sublime Text 的最新版本是 Sublime Text 3。这里以 Windows 版本的 Sublime Text 安装为例。
+</p>
+<ul>
+<li class="level1"><div class="li">状态栏（Status Bar）：显示当前行号、当前语言和Tab格式等信息。</div>
+</li>
+<li class="level1"><div class="li">注意在安装时勾选 Add to explorer context menu，这样在右键单击文件时就可以直接使用 Sublime Text 打开。
+
+</div>
+<!-- EDIT3 SECTION "安装（Installation）" [219-705] -->
+<h3 class="sectionedit4" id="添加_sublime_text_到环境变量">添加 Sublime Text 到环境变量</h3>
+<div class="level3">
+</div>
+</li>
+</ul>
+
+<p>
+使用 Win + R 运行 sysdm.cpl 打开 “系统属性”。
+</p>
+
+<p>
+然后在 “高级” 选项卡里选择 “环境变量”，编辑 “Path”，增加 Sublime Text 的安装目录（例如 D:\Program Files\Sublime Text 3）。
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%3Asublimetext&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt1.jpg" class="media" title="开发知识:sublimetxt1.jpg"><img src="/lib/exe/fetch.php?w=400&amp;tok=0157fd&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt1.jpg" class="mediacenter" title="sublimetxt1.jpg" alt="sublimetxt1.jpg" width="400" /></a>
+</p>
+
+<p>
+接下来你就可以在命令行里面利用 subl 命令直接使用 Sublime Text 了：
+</p>
+<ul>
+<li class="level1"><div class="li">subl file :: 使用 Sublime Text 打开 file 文件</div>
+</li>
+<li class="level1"><div class="li">subl folder :: 使用 Sublime Text 打开 folder 文件夹</div>
+</li>
+<li class="level1"><div class="li">subl . :: 使用 Sublime Text 当前文件夹</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT4 SECTION "添加 Sublime Text 到环境变量" [706-1301] -->
+<h3 class="sectionedit5" id="安装_package_control">安装 Package Control</h3>
+<div class="level3">
+
+<p>
+前文提到 Sublime Text 支持大量插件，如何找到并管理这些插件就成了一个问题，Package Control 正是为了解决这个问题而出现的，利用它我们可以很方便的浏览、安装和卸载 Sublime Text 中的插件。
+</p>
+
+<p>
+进入 Package Control 的 <a href="https://sublime.wbond.net/" class="urlextern" title="https://sublime.wbond.net/" rel="nofollow">官网</a>，里面有详细的 安装教程。Package Control 支持 Sublime Text 2 和 3，本文只给出 3 的安装流程：
+</p>
+<ul>
+<li class="level1"><div class="li">使用 &lt;nowiki&gt;Ctrl +  &lt;/nowiki&gt;打开 Sublime Text 控制台。</div>
+</li>
+<li class="level1"><div class="li">将下面的代码粘贴到控制台里将下面的代码粘贴到控制台里</div>
+</li>
+</ul>
+<pre class="code">import urllib.request,os,hashlib; h = &#039;7183a2d3e96f11eeadd761d777e62404&#039; + &#039;e330c659d4bb41d3bdf022e94cab3cd0&#039;; pf = &#039;Package Control.sublime-package&#039;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &#039;http://sublime.wbond.net/&#039; + pf.replace(&#039; &#039;, &#039;%20&#039;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&#039;Error validating download (got %s instead of %s), please try manual install&#039; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &#039;wb&#039; ).write(by)rite(by)</pre>
+<ul>
+<li class="level1"><div class="li">等待 Package Control 安装完成。
+之后使用 Ctrl + Shift + P 打开命令板，输入 PC 应出现 Package Control： 
+<a href="/lib/exe/detail.php?id=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%3Asublimetext&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt2.jpg" class="media" title="开发知识:sublimetxt2.jpg"><img src="/lib/exe/fetch.php?w=400&amp;tok=9d9f1a&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt2.jpg" class="mediacenter" alt="" width="400" /></a>
+成功安装 Package Control 之后，我们就可以方便的安装使用 Sublime Text 的各种插件： 
+<a href="/lib/exe/detail.php?id=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%3Asublimetext&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetext1.gif" class="media" title="开发知识:sublimetext1.gif"><img src="/lib/exe/fetch.php?w=400&amp;tok=1ee45e&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetext1.gif" class="mediacenter" alt="" width="400" /></a>
+
+</div>
+<!-- EDIT5 SECTION "安装 Package Control" [1302-2845] -->
+<h3 class="sectionedit6" id="购买_purchase">购买（Purchase）</h3>
+<div class="level3">
+
+<p>
+Sublime Text 是一个收费闭源软件，这在一定程度上成为了我支持 Sublime Text 的理由（我心中的软件靠谱程度：免费开源 « 免费闭源 &lt; 收费开源 &lt; 收费闭源）：在 这里 购买。
+不过不购买 Sublime Text 也可以 “正常” 使用它，只是 Sublime Text 会时不时的弹出一个对话框提醒你购买，此外窗口处会有一个很屌丝很 low 逼的 (UNREGISTERED)。（在高频操作下，一般 20 分钟提示一次，个人认为算是很厚道了） 
+</p>
+
+</div>
+<!-- EDIT6 SECTION "购买（Purchase）" [2846-3399] -->
+<h2 class="sectionedit7" id="概览_tour">概览（Tour）</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT7 SECTION "概览（Tour）" [3400-3429] -->
+<h3 class="sectionedit8" id="基本概念_basic_concepts">基本概念（Basic Concepts）</h3>
+<div class="level3">
+
+<p>
+Sublime Text 的界面如下： 
+<a href="/lib/exe/detail.php?id=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%3Asublimetext&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt3.jpg" class="media" title="开发知识:sublimetxt3.jpg"><img src="/lib/exe/fetch.php?w=400&amp;tok=d2f779&amp;media=%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86:sublimetxt3.jpg" class="mediacenter" title="sublimetxt3.jpg" alt="sublimetxt3.jpg" width="400" /></a>
+</p>
+</div>
+</li>
+<li class="level1"><div class="li">标签（Tab）：无需介绍。标签（Tab）：无需介绍。<ul>
+<li class="level1"><div class="li"> 编辑区（Editing Area）：无需介绍。编辑区（Editing Area）：无需介绍。 </div>
+</li>
+<li class="level1"><div class="li"> 侧栏（Side Bar）：包含当前打开的文件以及文件夹视图。</div>
+</li>
+<li class="level1"><div class="li"> 缩略图（Minimap）：如其名。缩略图（Minimap）：如其名。</div>
+</li>
+<li class="level1"><div class="li"> 命令板（Command Palette）：Sublime Text 的操作中心，它使得我们基本可以脱离鼠标和菜单栏进行操作。</div>
+</li>
+<li class="level1"><div class="li"> 控制台（Console）：使用<code> Ctrl + </code>，它既是一个标准的 Python REPL，也可以直接对 Sublime Text 进行配置。\</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT8 SECTION "基本概念（Basic Concepts）" [3430-4146] -->
+<h3 class="sectionedit9" id="基本编辑_basic_editing">基本编辑（Basic Editing）</h3>
+<div class="level3">
+
+<p>
+ <code>↑↓←→</code> 就是 ↑↓←→，不是 <code>KJHL</code>，（没错我就是在吐槽 Vim，尼玛设成 WSAD 也比这个强啊），粘贴剪切复制均和系统一致。
+</p>
+</div>
+</li>
+</ul>
+
+<p>
+Ctrl +` Enter 在当前行下面新增一行然后跳至该行；<code>Ctrl + Shift + Enter</code> 在当前行上面增加一行并跳至该行。
+</p>
+<pre class="code">{
+&quot;font_size&quot;: 12,
+&quot;highlight_line&quot;: true,
+}</pre>
+
+</div>
+<!-- EDIT9 SECTION "基本编辑（Basic Editing）" [4147-] -->
